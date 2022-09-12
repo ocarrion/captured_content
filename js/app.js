@@ -1,5 +1,4 @@
 
-
 const text = document.querySelector(".box")
 
 
@@ -29,4 +28,3 @@ function complete(){
     clearInterval(timer)
     timer = null;
 }
-
