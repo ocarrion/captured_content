@@ -3,6 +3,9 @@
     font-family: Kohinoor Devanagari;
 }
 
+
+/* nav bar styling */
+
 .navbar {
     width: 100%;
 }
@@ -11,7 +14,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -20,9 +22,11 @@ nav {
     color: rgb(0, 0, 0);
     font-size: 28.5px;
 }
+
 span {
     color: lightslategrey;
 }
+
 nav ul li {
     list-style-type: none;
     display: inline-block;
@@ -42,7 +46,7 @@ nav ul li a:hover {
     transition: .4s;
 }
 
-
+/* About Us Page Styling */
 
 .aboutus {
     color: rgb(0, 0, 0);
@@ -52,6 +56,7 @@ nav ul li a:hover {
     display: flex; 
 }
 
+/* search bar Styling */
 
 .search-bar{
     background: black;
@@ -95,7 +100,8 @@ nav ul li a:hover {
 }
 
 
-  /* Images  */
+  /* Images styling flex  */
+
 .image-parent-container{
     columns: 3;
     gap: 20px;
@@ -108,6 +114,50 @@ nav ul li a:hover {
   }
 
 
+/* search category styling */
+
+  .category{
+    font-family: Kohinoor Devanagari;
+    color: #000000;
+    align-items: center;
+}
 
 
-/* background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)); /*
+#select-category{
+    padding: 10px 50px;
+    margin: 0 20px;
+    border: none;
+    margin: 0 20px;
+    border: 1px solid #000000 !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: Kohinoor Devanagari;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  text-align: center;
+
+}
+
+
+.search {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+
+#selectedCategory {
+    text-decoration: none;
+    width: 100px;
+    padding: 10px 15px;
+    background: #000000;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    font-family: Kohinoor Devanagari;
+;
+
+}
