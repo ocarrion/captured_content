@@ -1,0 +1,72 @@
+     <!-- Mock Up signup page -->
+ 
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/about.css" >
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/jquery.js"></script>
+    <link rel="stylesheet" href="../css/layout.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  </head>
+
+
+  <body id="categoryPage" style="background-color: #ffffff">
+    <div class = "navbar">
+        <nav>
+          <a href="/" class="title">Captured Content</a>
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/category">Categories</a></li>
+              <li><a href="/blog">Blogs</a></li>
+          </ul>              
+
+         <div class="container">
+          <form action="/" class="search-bar" id="search">
+          <input id="searchResult" type="text" placeholder="search for anything   .." name="o">
+          <button type="submit"><img src="../images/search.png"></button> 
+
+      </nav>
+    
+ 
+    </div>
+  </body>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+</head>
+
+
+<body>
+
+
+        <div class="row">
+       
+     <!-- Connect to MongoDB -->
+                <form action="/sign_up" method="POST">
+                    <h2>SignUp Form</h2>
+                    <input type="text" class="box" id="name" name="name" placeholder="Name" required />
+                    <br>
+                    <input type="text" class="box" id="email" name="email" placeholder="Email" required />
+                    <br>
+                    <input type="text" class="box" id="phone" name="phone" placeholder="Mobile" required />
+                    <br>
+                    <input type="text" class="box" id="password" name="password" placeholder="Password" required />
+                    <br>
+                    <input type="submit" value="Submit" id="submit" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

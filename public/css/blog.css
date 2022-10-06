@@ -1,0 +1,122 @@
+.box {
+    font-size: 22px;
+    color: black;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+
+
+span {
+  opacity: 0;
+  transition: all 3.0s ease;
+  
+}
+
+span.fade {
+  opacity: 2;
+}
+
+
+
+
+.right {float: right !important;}
+/* Image zoom on hover + Overlay colour */
+.align {
+    width: 45%;
+    margin: 20px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+	cursor: pointer;
+
+}
+
+/* img layout styling hover over styling */
+/* animation added here  */
+.src {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+/* Blog Background Images */
+
+.bg-one {background-image: url(https://unsplash.com/blog/content/images/size/w2000/2022/09/A-look-back-at-August--Blog--2.jpg);}
+.bg-two {background-image: url(https://unsplash.com/blog/content/images/size/w1000/2022/05/shingi-rice-NXbBSg5DUMc-unsplash--1-.jpg);}
+.bg-three {background-image: url(https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29mZmVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);}
+.bg-four {background-image: url(https://images.unsplash.com/photo-1619685350254-c7b4e26988eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGRlbGljaW91c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);}
+.bg-five {background-image: url(https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);}
+.bg-six {background-image: url(https://images.unsplash.com/photo-1523510468197-455cc987be86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YWVzdGhldGljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);}
+.bg-seven {background-image: url(https://storage.googleapis.com/gweb-uniblog-publish-prod/images/yoodle_speedrun_twitter_social.max-1000x1000.png);}
+.bg-eight {background-image: url(https://images.unsplash.com/photo-1637806631554-bcfe2c618058?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHlvdXR1YmV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);}
+
+/* Blog Caption styling */
+
+.text {
+    display: none;
+    text-decoration: none;
+    font-family: Kohinoor Devanagari;
+    font-weight: bold; 
+    font-size: 15px;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    padding-top: 17px;
+    left: 0;
+    bottom: 24px;
+    right: 0;
+    height: 252px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.align:hover .src, .align:focus .src {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.align:hover .src:before, .align:focus .src:before {
+    display: block;
+}
+
+.align:hover a, .align:focus a {
+    display: block;
+}
+
+h3{
+   font-family: Kohinoor Devanagari;
+   font-size: 11px;
+   color: lightgray;
+}
+
+/* description above blogs styling */
+
+h5{
+    font-family: Kohinoor Devanagari;
+    font-size: 13px;
+    color: lightslategrey;
+    /* font-weight: 500; */
+    opacity: 60%;
+    font-weight: 500;
+    padding: 0 20px;
+ 
+ }
+ 
+ 
+

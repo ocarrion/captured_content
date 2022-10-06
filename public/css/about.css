@@ -1,0 +1,41 @@
+/* style for about page */
+
+
+.box {
+    font-size: 22px;
+    color: black;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 580px;
+  }
+
+
+
+span {
+  opacity: 0;
+  transition: all 3.0s ease;
+  
+}
+
+span.fade {
+  opacity: 2;
+}
+
+
+h4 {
+  color: lightslategrey;
+  /* opacity: 80%; */
+  font-weight: 400;
+  font-size: 15px;
+  text-align: right;
+  margin-top: 350px;
+  line-height: 25px;
+  width: 100%;
+}
+
+
+h4.fade{
+  opacity:2;
+}
+
